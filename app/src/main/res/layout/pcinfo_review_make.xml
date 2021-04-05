@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#4b000000"
+    >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:text="제목"
+            android:gravity="center_vertical"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/pcinfo_review_make_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/rounding"
+            android:ems="10"
+            android:hint="1자 ~ 20자의 제목을 입력해주세요"
+            android:inputType="text"
+            android:maxLength="20"
+            android:textSize="15dp"
+            android:privateImeOptions="defaultInputmode=korean"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="내용"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/pcinfo_review_make_Contents"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/review_make_textbackground"
+            android:ems="10"
+            android:gravity="start"
+            android:inputType="text"
+            android:maxLength="1000"
+            android:padding="8dp"
+            android:textSize="15dp"
+            android:privateImeOptions="defaultInputmode=korean"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <Button
+            android:id="@+id/pcinfo_review_make_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+
+            android:background="@color/noritercolor2"
+            android:text="작성"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</LinearLayout>

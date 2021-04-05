@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">노리터</string>
+    <string name="serverIP">http://117.16.43.25/</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6857486624843975/8848820714</string>
+    //지역 데이터
+    <string name="str_done">완료</string>
+    <string-array name="korea">
+        <item>전체,all</item>
+        <item>서울특별시,seoul</item>
+    </string-array>
+    <string-array name="초기화">
+        <item>전체</item>
+    </string-array>
+    <string-array name="seoul">
+        <item>전체,all</item>
+        <item>종로구,jongnogu</item>
+        <item>중구,junggu</item>
+        <item>용산구,yongsangu</item>
+        <item>성동구,seongdonggu</item>
+        <item>광진구,gwangjingu</item>
+        <item>동대문구,ddmgu</item>
+        <item>중랑구,jungnanggu</item>
+        <item>성북구,seongbukgu</item>
+        <item>강북구,gangbukgu</item>
+        <item>도봉구,dobonggu</item>
+        <item>노원구,nowongu</item>
+        <item>은평구,eunpyeonggu</item>
+        <item>서대문구,sdmgu</item>
+        <item>마포구,mapogu</item>
+        <item>양천구,yangcheongu</item>
+        <item>강서구,gangseogu</item>
+        <item>구로구,gurogu</item>
+        <item>금천구,geumcheongu</item>
+        <item>영등포구,ydpgu</item>
+        <item>동작구,dongjakgu</item>
+        <item>관악구,gwanakgu</item>
+        <item>서초구,seochogu</item>
+        <item>강남구,gangnamgu</item>
+        <item>송파구,songpagu</item>
+        <item>강동구,gangdonggu</item>
+
+    </string-array>
+    <string-array name="jongnogu">
+        <item>전체,all</item>
+        <item>가회동,gahoedong</item>
+        <item>견지동,gyeonjidong</item>
+        <item>경운동,gyeongundong</item>
+        <item>계동,gyedong</item>
+        <item>공평동,gongpyeongdong</item>
+        <item>관수동,gwansudong</item>
+        <item>관철동,gwancheoldong</item>
+        <item>관훈동,gwanhundong</item>
+        <item>교남동,gyonamdong</item>
+        <item>교북동,gyobukdong</item>
+        <item>구기동,gugidong</item>
+        <item>궁정동,gungjeongdong</item>
+        <item>권농동,gwonnongdong</item>
+        <item>낙원동,nagwondong</item>
+        <item>내수동,naesudong</item>
+        <item>내자동,naejadong</item>
+        <item>누상동,nusangdong</item>
+        <item>누하동,nuhadong</item>
+        <item>당주동,dangjudong</item>
+        <item>도렴동,dolyeomdong</item>
+        <item>돈의동,donuidong</item>
+        <item>동숭동,dongsungdong</item>
+        <item>명륜1가,myeonglyun1ga</item>
+        <item>명륜2가,myeonglyun2ga</item>
+        <item>명륜3가,myeonglyun3ga</item>
+        <item>명륜4가,myeonglyun4ga</item>
+        <item>묘동,myodong</item>
+        <item>무악동,muagdong</item>
+        <item>봉익동,bongikdong</item>
+        <item>부암동,buamdong</item>
+        <item>사간동,sagandong</item>
+        <item>사직동,sajigdong</item>
+        <item>삼청동,samcheongdong</item>
+        <item>서린동,seolindong</item>
+        <item>세종로,sejonglo</item>
+        <item>소격동,sogyeogdong</item>
+        <item>송월동,songwoldong</item>
+        <item>송현동,songhyeondong</item>
+        <item>수송동,susongdong</item>
+        <item>숭인동,sungindong</item>
+        <item>숭인1동,sungin1dong</item>
+        <item>숭인2동,sungin2dong</item>
+        <item>신교동,singyodong</item>
+        <item>신문로1가,sinmunlo1ga</item>
+        <item>신문로2가,sinmunlo2ga</item>
+        <item>신영동,sinyeongsong</item>
+        <item>안국동,angugdong</item>
+        <item>연건동,yeongeondong</item>
+        <item>예지동,yejidong</item>
+        <item>옥인동,og-indong</item>
+        <item>와룡동,Waryong-dong</item>
+        <item>운니동,Unni-dong</item>
+        <item>원남동,Wonnam-dong</item>
+        <item>원서동,wonseodong</item>
+        <item>이화동,ihwadong</item>
+        <item>익선동,igseondong</item>
+        <item>인의동,in-uidong</item>
+        <item>장사동,Jangsa-dong</item>
+        <item>재동,jaedong</item>
+        <item>적선동,jeogseondong</item>
+        <item>종로1가,jonglo1ga</item>
+        <item>종로2가,jonglo2ga</item>
+        <item>종로3가,jonglo3ga</item>
+        <item>종로4가,jonglo4ga</item>
+        <item>종로5가,jonglo5ga</item>
+        <item>종로6가,jonglo6ga</item>
+        <item>중학동,junghagdong</item>
+        <item>창성동,changseongdong</item>
+        <item>창신동,changsindong</item>
+        <item>창신1동,changsin 1-dong</item>
+        <item>창신2동,changsin 2-dong</item>
+        <item>창신3동,changsin 3-dong</item>
+        <item>청운동,Cheongun-dong</item>
+        <item>청진동,Cheongjin-dong</item>
+        <item>체부동,chebudong</item>
+        <item>충신동,chungsindong</item>
+        <item>통의동,tong-uidong</item>
+        <item>통인동,Tongin-dong</item>
+        <item>팔판동,palpandong</item>
+        <item>평동,Pyeong-dong</item>
+        <item>평창동,pyeongchangdong</item>
+        <item>필운동,pil-undong</item>
+        <item>행촌동,haengchondong</item>
+        <item>혜화동,hyehwadong</item>
+        <item>홍지동,Hongji-dong</item>
+        <item>홍파동,hongpadong</item>
+        <item>화동,hwadong</item>
+        <item>효자동,hyojadong</item>
+        <item>효제동,Hyoje-dong</item>
+        <item>훈정동,hunjeongdong</item>
+
+    </string-array>
+    <string-array name="junggu">
+        <item>전체,all</item>
+        <item>광희동1가,gwanghuidong1ga</item>
+        <item>광희동2가,gwanghuidong2ga</item>
+        <item>남대문로1가,namdaemunlo1ga</item>
+        <item>남대문로2가,namdaemunlo2ga</item>
+        <item>남대문로3가,namdaemunlo3ga</item>
+        <item>남대문로4가,namdaemunlo4ga</item>
+        <item>남대문로5가,namdaemunlo5ga</item>
+        <item>남산동1가,namsandong1ga</item>
+        <item>남산동2가,namsandong2ga</item>
+        <item>남산동3가,namsandong3ga</item>
+        <item>남창동,namchangdong</item>
+        <item>남학동,namhagdong</item>
+        <item>다동,dadong</item>
+        <item>만리동1가,manlidong1ga</item>
+        <item>만리동2가,manlidong2ga</item>
+        <item>명동1가,myeongdong1ga</item>
+        <item>명동2가,myeongdong2ga</item>
+        <item>무교동,Mugyo-dong</item>
+        <item>무학동,muhagdong</item>
+        <item>묵정동,mugjeongdong</item>
+        <item>방산동,bangsandong</item>
+        <item>봉래동1가,bonglaedong1ga</item>
+        <item>봉래동2가,bonglaedong2ga</item>
+        <item>북창동,bugchangdong</item>
+        <item>산림동,sanlimdong</item>
+        <item>삼각동,samgagdong</item>
+        <item>서소문동,seosomundong</item>
+        <item>소공동,sogongdong</item>
+        <item>수표동,Supyo-dong</item>
+        <item>수하동,Suha-dong</item>
+        <item>순화동,sunhwadong</item>
+        <item>신당동,sindangdong</item>
+        <item>신당1동,sindang1dong</item>
+        <item>신당2동,sindang2dong</item>
+        <item>신당3동,sindang3dong</item>
+        <item>신당4동,sindang4dong</item>
+        <item>신당5동,sindang5dong</item>
+        <item>신당6동,sindang6dong</item>
+        <item>쌍림동,Ssangnim-dong</item>
+        <item>예관동,yegwandong</item>
+        <item>예장동,yejangdong</item>
+        <item>오장동,Ojang-dong</item>
+        <item>을지로1가,euljiro 1-ga</item>
+        <item>을지로2가,euljiro 2-ga</item>
+        <item>을지로3가,euljiro 3-ga</item>
+        <item>을지로4가,euljiro 4-ga</item>
+        <item>을지로5가,euljiro 5-ga</item>
+        <item>을지로6가,euljiro 6-ga</item>
+        <item>을지로7가,euljiro 7-ga</item>
+        <item>의주로1가,uijulo1ga</item>
+        <item>의주로2가,uijulo2ga</item>
+        <item>인현동1가,inhyeondong1ga</item>
+        <item>인현동2가,inhyeondong2ga</item>
+        <item>입정동,ibjeongdong</item>
+        <item>장교동,Janggyo-dong</item>
+        <item>장충동1가,jangchungdong1ga</item>
+        <item>장충동2가,jangchungdong2ga</item>
+        <item>저동1가,jeodong1ga</item>
+        <item>저동2가,jeodong2ga</item>
+        <item>정동,jeongdong</item>
+        <item>주교동,jugyodong</item>
+        <item>주자동,jujadong</item>
+        <item>중림동,Jungnim-dong</item>
+        <item>초동,chodong</item>
+        <item>충무로1가,chungmulo1ga</item>
+        <item>충무로2가,chungmulo2ga</item>
+        <item>충무로3가,chungmulo3ga</item>
+        <item>충무로4가,chungmulo4ga</item>
+        <item>충무로5가,chungmulo5ga</item>
+        <item>충정로1가,chungjeonglo1ga</item>
+        <item>태평로1가,taepyeonglo1ga</item>
+        <item>태평로2가,taepyeonglo2ga</item>
+        <item>필동1가,pildong1ga</item>
+        <item>필동2가,pildong2ga</item>
+        <item>필동3가,pildong3ga</item>
+        <item>황학동,Hwanghak-dong</item>
+        <item>회현동1가,hoehyeondong1ga</item>
+        <item>회현동2가,hoehyeondong2ga</item>
+        <item>회현동3가,hoehyeondong3ga</item>
+        <item>흥인동,heung-indong</item>
+
+    </string-array>
+    <string-array name="yongsangu">
+        <item>전체,all</item>
+        <item>갈월동,gal-woldong</item>
+        <item>남영동,Namyeong-dong</item>
+        <item>도원동,dowondong</item>
+        <item>동빙고동,dongbing-godong</item>
+        <item>동자동,dongjadong</item>
+        <item>문배동,munbaedong</item>
+        <item>보광동,bogwangdong</item>
+        <item>산천동,sancheondong</item>
+        <item>서계동,Seogye-dong</item>
+        <item>서빙고동,seobing-godong</item>
+        <item>신계동,singyedong</item>
+        <item>신창동,sinchangdong</item>
+        <item>용문동,yongmundong</item>
+        <item>용산동1가,yongsandong1ga</item>
+        <item>용산동2가,yongsandong2ga</item>
+        <item>용산동3가,yongsandong3ga</item>
+        <item>용산동4가,yongsandong4ga</item>
+        <item>용산동5가,yongsandong5ga</item>
+        <item>용산동6가,yongsandong6ga</item>
+        <item>원효로1가,wonhyolo1ga</item>
+        <item>원효로2가,wonhyolo2ga</item>
+        <item>원효로3가,wonhyolo3ga</item>
+        <item>원효로4가,wonhyolo4ga</item>
+        <item>이촌동,Ichondong</item>
+        <item>이촌1동,Ichon 1-dong</item>
+        <item>이촌2동,Ichon 2-dong</item>
+        <item>이태원동,itaewondong</item>
+        <item>이태원1동,itaewon1dong</item>
+        <item>이태원2동,itaewon2dong</item>
+        <item>주성동,juseongdong</item>
+        <item>청암동,cheong-amdong</item>
+        <item>청파동1가,Cheongpa-dong 1-ga</item>
+        <item>청파동2가,Cheongpa-dong 2-ga</item>
+        <item>청파동3가,Cheongpa-dong 3-ga</item>
+        <item>한강로1가,hanganglo1ga</item>
+        <item>한강로2가,hanganglo2ga</item>
+        <item>한강로3가,hanganglo3ga</item>
+        <item>한남동,hannamdong</item>
+        <item>효창동,Hyochang-dong</item>
+        <item>후암동,huamdong</item>
+
+    </string-array>
+    <string-array name="seongdonggu">
+        <item>전체,all</item>
+        <item>금호동1가,geumhodong1ga</item>
+        <item>금호동2가,geumhodong2ga</item>
+        <item>금호동3가,geumhodong3ga</item>
+        <item>금호동4가,geumhodong4ga</item>
+        <item>도선동,doseondong</item>
+        <item>마장동,Majang-dong</item>
+        <item>사근동,sageundong</item>
+        <item>상왕십리동,sang-wangsiblidong</item>
+        <item>성수동1가,seongsudong1ga</item>
+        <item>성수동2가,seongsudong2ga</item>
+        <item>성수1가1동,seongsu1ga1dong</item>
+        <item>성수1가2동,seongsu1ga2dong</item>
+        <item>성수2가1동,seongsu2ga1dong</item>
+        <item>성수2가3동,seongsu2ga3dong</item>
+        <item>송정동,Songjeong-dong</item>
+        <item>옥수동,ogsudong</item>
+        <item>용답동,yongdabdong</item>
+        <item>응봉동,Eungbong-dong</item>
+        <item>하왕십리동,hawangsiblidong</item>
+        <item>행당동,Haengdangdong</item>
+        <item>행당1동,Haengdang 1-dong</item>
+        <item>행당2동,Haengdang 2-dong</item>
+        <item>홍익동,hong-igdong</item>
+
+    </string-array>
+    <string-array name="gwangjingu">
+        <item>전체,all</item>
+        <item>광장동,gwangjangdong</item>
+        <item>구의동,guuidong</item>
+        <item>구의1동,guui1dong</item>
+        <item>구의2동,guui2dong</item>
+        <item>구의3동,guui3dong</item>
+        <item>군자동,gunjadong</item>
+        <item>능동,neungdong</item>
+        <item>자양동,,Jayangdong</item>
+        <item>자양1동,Jayang 1-dong</item>
+        <item>자양2동,Jayang 2-dong</item>
+        <item>자양3동,Jayang 3-dong</item>
+        <item>자양4동,Jayang 4-dong</item>
+        <item>중곡동,jung-gogdong</item>
+        <item>중곡1동,jung-gog1dong</item>
+        <item>중곡2동,jung-gog2dong</item>
+        <item>중곡3동,jung-gog3dong</item>
+        <item>중곡4동,jung-gog4dong</item>
+        <item>화양동,hwayangdong</item>
+
+    </string-array>
+    <string-array name="ddmgu">
+        <item>전체,all</item>
+        <item>답십리동,dabsiblidong</item>
+        <item>답십리1동,dabsibli1dong</item>
+        <item>답십리2동,dabsibli2dong</item>
+        <item>신설동,sinseoldong</item>
+        <item>용두동,yongdudong</item>
+        <item>이문동,imundong</item>
+        <item>이문1동,imun1dong</item>
+        <item>이문2동,imun2dong</item>
+        <item>장안동,jang-andong</item>
+        <item>장안1동,jang-an1dong</item>
+        <item>장안2동,jang-an2dong</item>
+        <item>전농동,jeonnongdong</item>
+        <item>전농1동,jeonnong1dong</item>
+        <item>전농2동,jeonnong2dong</item>
+        <item>제기동,Jegi-dong</item>
+        <item>청량리동,cheonglyanglidong</item>
+        <item>회기동,hoegidong</item>
+        <item>휘경동,Hwigyeongdong</item>
+        <item>휘경1동,Hwigyeong 1-dong</item>
+        <item>휘경2동,Hwigyeong 2-dong</item>
+
+    </string-array>
+    <string-array name="jungnanggu">
+        <item>전체,all</item>
+        <item>망우동,mang-udong</item>
+        <item>망우3동,mang-u3dong</item>
+        <item>망우본동,mang-ubondong</item>
+        <item>면목동,myeonmogdong</item>
+        <item>면목2동,Myeonmok 2-dong</item>
+        <item>면목3.8동,Myeonmok 3.8-dong</item>
+        <item>면목4동,Myeonmok 4-dong</item>
+        <item>면목5동,Myeonmok 5-dong</item>
+        <item>면목7동,Myeonmok 7-dong</item>
+        <item>면목본동,Myeonmok bondong</item>
+        <item>묵동,Mukdong</item>
+        <item>묵1동,Muk 1-dong</item>
+        <item>묵2동,Muk 2-dong</item>
+        <item>상봉동,Sangbongdong</item>
+        <item>상봉1동,Sangbong 1-dong</item>
+        <item>상봉2동,Sangbong 2-dong</item>
+        <item>신내동,sinnaedong</item>
+        <item>신내1동,sinnae1dong</item>
+        <item>신내2동,sinnae2dong</item>
+        <item>중화동,junghwadong</item>
+        <item>중화1동,junghwa1dong</item>
+        <item>중화2동,junghwa2dong</item>
+
+    </string-array>
+    <string-array name="seongbukgu">
+        <item>전체,all</item>
+        <item>길음동,gil-eumdong</item>
+        <item>길음1동,gil-eum1dong</item>
+        <item>길음2동,gil-eum2dong</item>
+        <item>돈암동,Donamdong</item>
+        <item>돈암1동,Donam 1-dong</item>
+        <item>돈암2동,Donam 2-dong</item>
+        <item>동선동1가,dongseondong1ga</item>
+        <item>동선동2가,dongseondong2ga</item>
+        <item>동선동3가,dongseondong3ga</item>
+        <item>동선동4가,dongseondong4ga</item>
+        <item>동선동5가,dongseondong5ga</item>
+        <item>동소문동1가,dongsomundong1ga</item>
+        <item>동소문동2가,dongsomundong2ga</item>
+        <item>동소문동3가,dongsomundong3ga</item>
+        <item>동소문동4가,dongsomundong4ga</item>
+        <item>동소문동5가,dongsomundong5ga</item>
+        <item>동소문동6가,dongsomundong6ga</item>
+        <item>동소문동7가,dongsomundong7ga</item>
+        <item>보문동1가,bomundong1ga</item>
+        <item>보문동2가,bomundong2ga</item>
+        <item>보문동3가,bomundong3ga</item>
+        <item>보문동4가,bomundong4ga</item>
+        <item>보문동5가,bomundong5ga</item>
+        <item>보문동6가,bomundong6ga</item>
+        <item>보문동7가,bomundong7ga</item>
+        <item>삼선동1가,samseondong1ga</item>
+        <item>삼선동2가,samseondong2ga</item>
+        <item>삼선동3가,samseondong3ga</item>
+        <item>삼선동4가,samseondong4ga</item>
+        <item>삼선동5가,samseondong5ga</item>
+        <item>상월곡동,sang-wolgogdong</item>
+        <item>석관동,seoggwandong</item>
+        <item>성북동,seongbugdong</item>
+        <item>성북동1가,seongbugdong1ga</item>
+        <item>안암동1가,Anam-dong 1-ga</item>
+        <item>안암동2가,Anam-dong 2-ga</item>
+        <item>안암동3가,Anam-dong 3-ga</item>
+        <item>안암동4가,Anam-dong 4-ga</item>
+        <item>안암동5가,Anam-dong 5-ga</item>
+        <item>월곡1동,wolgog1dong</item>
+        <item>월곡2동,wolgog2dong</item>
+        <item>장위동,jang-widong</item>
+        <item>장위1동,Jangwi 1-dong</item>
+        <item>장위2동,Jangwi 2-dong</item>
+        <item>장위3동,Jangwi 3-dong</item>
+        <item>정릉동,Jeongneungdong</item>
+        <item>정릉1동,Jeongneung 1-dong</item>
+        <item>정릉2동,Jeongneung 2-dong</item>
+        <item>정릉3동,Jeongneung 3-dong</item>
+        <item>정릉4동,Jeongneung 3-dong</item>
+        <item>종암동,jong-amdong</item>
+        <item>하월곡동,hawolgogdong</item>
+
+    </string-array>
+    <string-array name="gangbukgu">
+        <item>전체,all</item>
+        <item>미아동,Mia-dong</item>
+        <item>번동,Beondong</item>
+        <item>번1동,Beon 1-dong</item>
+        <item>번2동,Beon 2-dong</item>
+        <item>번3동,Beon 3-dong</item>
+        <item>삼각산동,samgagsandong</item>
+        <item>삼양동,sam-yangdong</item>
+        <item>송중동,Songjung-dong</item>
+        <item>송천동,songcheondong</item>
+        <item>수유동,suyudong</item>
+        <item>수유1동,Suyu 1-dong</item>
+        <item>수유2동,Suyu 2-dong</item>
+        <item>수유3동,Suyu 3-dong</item>
+        <item>우이동,u-idong</item>
+        <item>인수동,insudong</item>
+
+    </string-array>
+    <string-array name="dobonggu">
+        <item>전체,all</item>
+        <item>도봉동,dobongdong</item>
+        <item>도봉1동,dobong1dong</item>
+        <item>도봉2동dobong2dong</item>
+        <item>방학동,banghagdong</item>
+        <item>방학1동,banghag1dong</item>
+        <item>방학2동,banghag2dong</item>
+        <item>방학3동,banghag3dong</item>
+        <item>쌍문동,ssangmundong</item>
+        <item>쌍문1동,ssangmun1dong</item>
+        <item>쌍문2동,ssangmun2dong</item>
+        <item>쌍문3동,ssangmun3dong</item>
+        <item>쌍문4동,ssangmun4dong</item>
+        <item>창동,changdong</item>
+        <item>창1동,Chang 1-dong</item>
+        <item>창2동,Chang 2-dong</item>
+        <item>창3동,Chang 3-dong</item>
+        <item>창4동,Chang 4-dong</item>
+        <item>창5동,Chang 5-dong</item>
+
+    </string-array>
+    <string-array name="nowongu">
+        <item>전체,all</item>
+        <item>공릉동,Gongneungdong</item>
+        <item>공릉1.3동,Gongneung1.3dong</item>
+        <item>공릉2동,Gongneung 2-dong</item>
+        <item>상계동,sang-gyedong</item>
+        <item>상계1동,Sanggye 1-dong</item>
+        <item>상계2동,Sanggye 2-dong</item>
+        <item>상계3.4동,Sanggye 3.4-dong</item>
+        <item>상계5동,Sanggye 5-dong</item>
+        <item>상계6.7동,Sanggye 6.7-dong</item>
+        <item>상계8동,Sanggye 8-dong</item>
+        <item>상계9동,Sanggye 9-dong</item>
+        <item>상계10동,Sanggye 10-dong</item>
+        <item>월계동,Wolgyedong</item>
+        <item>월계1동,Wolgye 1-dong</item>
+        <item>월계2동,Wolgye 2-dong</item>
+        <item>월계3동,Wolgye 3-dong</item>
+        <item>중계동,jung-gyedong</item>
+        <item>중계1동,Junggye 1-dong</item>
+        <item>중계2.3동,jung-gye2.3dong</item>
+        <item>중계4동,Junggye 4-dong</item>
+        <item>중계본동,Junggyebon-dong</item>
+        <item>하계동,hagyedong</item>
+        <item>하계1동,hagye1dong</item>
+        <item>하계2동,hagye2dong</item>
+
+    </string-array>
+    <string-array name="eunpyeonggu">
+        <item>전체,all</item>
+        <item>갈현동,galhyeondong</item>
+        <item>갈현1동,galhyeon1dong</item>
+        <item>갈현2동,galhyeon2dong</item>
+        <item>구산동,gusandong</item>
+        <item>녹번동,nogbeondong</item>
+        <item>대조동,daejodong</item>
+        <item>불광동,bulgwangdong</item>
+        <item>불광1동,Bulgwang 1-dong</item>
+        <item>불광2동,Bulgwang 2-dong</item>
+        <item>응암동,eung-amdong</item>
+        <item>응암1동,eung-am1dong</item>
+        <item>응암2동,eung-am2dong</item>
+        <item>응암3동,eung-am3dong</item>
+        <item>역촌동,yeogchondong</item>
+        <item>수색동,susaegdong</item>
+        <item>신사동,sinsadong</item>
+        <item>신사1동,sinsa1dong</item>
+        <item>신사2동,sinsa2dong</item>
+        <item>증산동,jeungsandong</item>
+        <item>진관동,jingwandong</item>
+
+    </string-array>
+    <string-array name="sdmgu">
+        <item>전체,all</item>
+        <item>남가좌동,namgajwadong</item>
+        <item>남가좌1동,namgajwa1dong</item>
+        <item>남가좌2동,namgajwa2dong</item>
+        <item>냉천동,Naengcheon-dong</item>
+        <item>대신동,daesindong</item>
+        <item>대현동,daehyeondong</item>
+        <item>미근동,migeundong</item>
+        <item>봉원동,bong-wondong</item>
+        <item>북가좌동,buggajwadong</item>
+        <item>북가좌1동,Bukgajwa 1-dong</item>
+        <item>북가좌2동,Bukgajwa 2-dong</item>
+        <item>북아현동,bug-ahyeondong</item>
+        <item>신촌동,sinchondong</item>
+        <item>연희동,yeonhuidong</item>
+        <item>영천동,yeongcheondong</item>
+        <item>옥천동,ogcheondong</item>
+        <item>창천동,changcheondong</item>
+        <item>천연동.cheon-yeondong</item>
+        <item>충정로2가,chungjeonglo2ga</item>
+        <item>충정로3가,chungjeonglo3ga</item>
+        <item>충현동,chunghyeondong</item>
+        <item>합동,habdong</item>
+        <item>현저동,hyeonjeodong</item>
+        <item>홍은동,Hongeundong</item>
+        <item>홍은1동,Hongeun 1-dong</item>
+        <item>홍은2동,Hongeun 2-dong</item>
+        <item>홍제동,hongjedong</item>
+        <item>홍제1동,hongje1dong</item>
+        <item>홍제2동,hongje2dong</item>
+        <item>홍제3동,hongje3dong</item>
+
+    </string-array>
+    <string-array name="mapogu">
+        <item>전체,all</item>
+        <item>공덕동,gongdeogdong</item>
+        <item>구수동,gusudong</item>
+        <item>노고산동,nogosandong</item>
+        <item>당인동,dang-indong</item>
+        <item>대흥동,daeheungdong</item>
+        <item>도화동,dohwadong</item>
+        <item>동교동,dong-gyodong</item>
+        <item>마포동,mapodong</item>
+        <item>망원동,Mangwondong</item>
+        <item>망원1동,Mangwon 1-dong</item>
+        <item>망원2동,Mangwon 2-dong</item>
+        <item>상수동,sangsudong</item>
+        <item>상암동,Sangam-dong</item>
+        <item>서교동,seogyodong</item>
+        <item>성산동,seongsandong</item>
+        <item>성산1동,seongsan1dong</item>
+        <item>성산2동,seongsan2dong</item>
+        <item>신공덕동,singongdeogdong</item>
+        <item>신수동,sinsudong</item>
+        <item>신정동,sinjeongdong</item>
+        <item>아현동,ahyeondong</item>
+        <item>연남동,yeonnamdong</item>
+        <item>염리동,yeomlidong</item>
+        <item>용강동,Yonggang-dong</item>
+        <item>중동,jungdong</item>
+        <item>창전동,Changjeon-dong</item>
+        <item>토정동,tojeongdong</item>
+        <item>하중동,hajungdong</item>
+        <item>합정동,habjeongdong</item>
+        <item>현석동,hyeonseogdong</item>
+
+    </string-array>
+    <string-array name="yangcheongu">
+        <item>전체,all</item>
+        <item>목동,mogdong</item>
+        <item>목1동,mog1dong</item>
+        <item>목2동,mog2dong</item>
+        <item>목3동,mog3dong</item>
+        <item>목4동,mog4dong</item>
+        <item>목5동,mog5dong</item>
+        <item>신월동,sin-woldong</item>
+        <item>신월1동,Sinwol 1-dong</item>
+        <item>신월2동,Sinwol 2-dong</item>
+        <item>신월3동,Sinwol 3-dong</item>
+        <item>신월4동,Sinwol 4-dong</item>
+        <item>신월5동,Sinwol 5-dong</item>
+        <item>신월6동,Sinwol 6-dong</item>
+        <item>신월7동,Sinwol 7-dong</item>
+        <item>신정동,sinjeongdong</item>
+        <item>신정1동,Sinjeong 1-dong</item>
+        <item>신정2동,Sinjeong 2-dong</item>
+        <item>신정3동,Sinjeong 3-dong</item>
+        <item>신정4동,Sinjeong 4-dong</item>
+        <item>신정6동,Sinjeong 6-dong</item>
+        <item>신정7동,Sinjeong 7-dong</item>
+
+    </string-array>
+    <string-array name="gangseogu">
+        <item>전체,all</item>
+        <item>가양동,gayangdong</item>
+        <item>가양1동,gayang1dong</item>
+        <item>가양2동,gayang1dong</item>
+        <item>가양3동,gayang1dong</item>
+        <item>개화동,gaehwadong</item>
+        <item>공항동,gonghangdong</item>
+        <item>과해동,gwahaedong</item>
+        <item>내발산동,naebalsandong</item>
+        <item>등촌동,deungchondong</item>
+        <item>등촌1동,deungchon1dong</item>
+        <item>등촌2동,deungchon2dong</item>
+        <item>등촌3동,deungchon3dong</item>
+        <item>마곡동,Magok-dong</item>
+        <item>방화동,banghwadong</item>
+        <item>방화1동,banghwa1dong</item>
+        <item>방화2동,banghwa2dong</item>
+        <item>방화3동,banghwa3dong</item>
+        <item>염창동,yeomchangdong</item>
+        <item>오곡동,ogogdong</item>
+        <item>오쇠동,Osoe-dong</item>
+        <item>외발산동moebalsandong</item>
+        <item>우장산동,Woojangsan-dong</item>
+        <item>화곡동,hwagogdong</item>
+        <item>화곡1동,hwagog1dong</item>
+        <item>화곡2동,hwagog2dong</item>
+        <item>화곡3동,hwagog3dong</item>
+        <item>화곡4동,hwagog4dong</item>
+        <item>화곡6동,hwagog6dong</item>
+        <item>화곡8동,hwagog8dong</item>
+        <item>화곡본동,hwagogbondong</item>
+
+    </string-array>
+    <string-array name="gurogu">
+        <item>전체,all</item>
+        <item>가리봉동,galibongdong</item>
+        <item>개봉동,gaebongdong</item>
+        <item>개봉1동,gaebong1dong</item>
+        <item>개봉2동,gaebong2dong</item>
+        <item>개봉3동,gaebong3dong</item>
+        <item>고척동,gocheogdong</item>
+        <item>고척1동,gocheog1dong</item>
+        <item>고척2동,gocheog2dong</item>
+        <item>구로동,gulodong</item>
+        <item>구로1동,gulo1dong</item>
+        <item>구로2동,gulo2dong</item>
+        <item>구로3동,gulo3dong</item>
+        <item>구로4동,gulo4dong</item>
+        <item>구로5동,gulo5dong</item>
+        <item>궁동,gungdong</item>
+        <item>신도림동,Sindorim-dong</item>
+        <item>오류동,olyudong</item>
+        <item>오류1동,olyu1dong</item>
+        <item>오류2동,olyu2dong</item>
+        <item>온수동,Onsu-dong</item>
+        <item>천왕동,cheon-wangdong</item>
+        <item>항동,hangdong</item>
+
+
+    </string-array>
+    <string-array name="geumcheongu">
+        <item>전체,all</item>
+        <item>가산동,gasandong</item>
+        <item>독산동,dogsandong</item>
+        <item>독산1동,Doksan 1-dong</item>
+        <item>독산2동,Doksan 2-dong</item>
+        <item>독산3동,Doksan 3-dong</item>
+        <item>독산4동,Doksan 4-dong</item>
+        <item>시흥동,siheungdong</item>
+        <item>시흥1동,Siheung 1-dong</item>
+        <item>시흥2동,Siheung 2-dong</item>
+        <item>시흥3동,Siheung 3-dong</item>
+        <item>시흥4동,Siheung 4-dong</item>
+        <item>시흥5동,Siheung 5-dong</item>
+
+    </string-array>
+    <string-array name="ydpgu">
+        <item>전체,all</item>
+        <item>당산동,dangsandong</item>
+        <item>당산동1가,dangsandong1ga</item>
+        <item>당산동2가,dangsandong2ga</item>
+        <item>당산동3가,dangsandong3ga</item>
+        <item>당산동4가,dangsandong4ga</item>
+        <item>당산동5가,dangsandong5ga</item>
+        <item>당산동6가,dangsandong6ga</item>
+        <item>대림동,daelimdong</item>
+        <item>대림1동,daelim1dong</item>
+        <item>대림2동,daelim2dong</item>
+        <item>대림3동,daelim3dong</item>
+        <item>도림동,dolimdong</item>
+        <item>문래동,dolimdong</item>
+        <item>문래동1가,munlaedong1ga</item>
+        <item>문래동2가,munlaedong2ga</item>
+        <item>문래동3가,munlaedong3ga</item>
+        <item>문래동4가,munlaedong4ga</item>
+        <item>문래동5가,munlaedong5ga</item>
+        <item>문래동6가,munlaedong6ga</item>
+        <item>신길동,singildong</item>
+        <item>신길1동,singil1dong</item>
+        <item>신길3동,singil3dong</item>
+        <item>신길4동,singil4dong</item>
+        <item>신길5동,singil5dong</item>
+        <item>신길6동,singil6dong</item>
+        <item>신길7동,singil7dong</item>
+        <item>양평동,yangpyeongdong</item>
+        <item>양평동1가,yangpyeongdong1ga</item>
+        <item>양평동2가,yangpyeongdong2ga</item>
+        <item>양평동3가,yangpyeongdong3ga</item>
+        <item>양평동4가,yangpyeongdong4ga</item>
+        <item>양평동5가,yangpyeongdong5ga</item>
+        <item>양평동6가,yangpyeongdong6ga</item>
+        <item>양화동,Yanghwa-dong</item>
+        <item>영등포동,yeongdeungpodong</item>
+        <item>영등포동1가,yeongdeungpodong1ga</item>
+        <item>영등포동2가,yeongdeungpodong2ga</item>
+        <item>영등포동3가,yeongdeungpodong3ga</item>
+        <item>영등포동4가,yeongdeungpodong4ga</item>
+        <item>영등포동5가,yeongdeungpodong5ga</item>
+        <item>영등포동6가,yeongdeungpodong6ga</item>
+        <item>영등포동7가,yeongdeungpodong7ga</item>
+        <item>영등포동8가,yeongdeungpodong8ga</item>
+        <item>영등포본동,yeongdeungpobondong</item>
+
+    </string-array>
+    <string-array name="dongjakgu">
+        <item>전체,all</item>
+        <item>노량진동,nolyangjindong</item>
+        <item>노량진1동,nolyangjin1dong</item>
+        <item>노량진2동,nolyangjin2dong</item>
+        <item>대방동,daebangdong</item>
+        <item>동작동,dongjagdong</item>
+        <item>본동,bondong</item>
+        <item>사당동,Sadangdong</item>
+        <item>사당1동,Sadang 1-dong</item>
+        <item>사당2동,Sadang 2-dong</item>
+        <item>사당3동,Sadang 3-dong</item>
+        <item>사당4동,Sadang 4-dong</item>
+        <item>사당5동,Sadang 5-dong</item>
+        <item>상도동,sangdodong</item>
+        <item>상도1동,sangdo1dong</item>
+        <item>상도2동,sangdo2dong</item>
+        <item>상도3동,sangdo3dong</item>
+        <item>상도4동,sangdo4dong</item>
+        <item>신대방동,sindaebangdong</item>
+        <item>신대방1동,sindaebang1dong</item>
+        <item>신대방2동,sindaebang2dong</item>
+        <item>흑석동,heugseogdong</item>
+
+    </string-array>
+    <string-array name="gwanakgu">
+        <item>전체,all</item>
+        <item>낙성대동,nagseongdaedong</item>
+        <item>난곡동,nangogdong</item>
+        <item>난향동,nanhyangdong</item>
+        <item>남현동,namhyeondong</item>
+        <item>대학동,daehagdong</item>
+        <item>미성동,miseong-dong</item>
+        <item>보라매동,Boramae-dong</item>
+        <item>봉천동,Bongcheon-dong</item>
+        <item>삼성동,samseongdong</item>
+        <item>서림동,Seorim-dong</item>
+        <item>서원동,Seowon-dong</item>
+        <item>성현동,Seonghyeon-dong</item>
+        <item>신림동,sinlimdong</item>
+        <item>신사동,sinsadong</item>
+        <item>신원동,sin-wondong</item>
+        <item>은천동,Euncheon-dong</item>
+        <item>인헌동,Inhun-dong</item>
+        <item>조원동,jowondong</item>
+        <item>중앙동,jung-angdong</item>
+        <item>청룡동,Cheongnyong-dong</item>
+        <item>청림동,Cheongnim-dong</item>
+        <item>행운동,haeng-undong</item>
+
+    </string-array>
+    <string-array name="seochogu">
+        <item>전체,all</item>
+        <item>내곡동,naegogdong</item>
+        <item>반포동,banpodong</item>
+        <item>반포1동,banpo1dong</item>
+        <item>반포2동,banpo2dong</item>
+        <item>반포3동,banpo3dong</item>
+        <item>반포4동,banpo4dong</item>
+        <item>반포본동,banpobondong</item>
+        <item>방배동,bangbaedong</item>
+        <item>방배1동,bangbae1dong</item>
+        <item>방배2동,bangbae2dong</item>
+        <item>방배3동,bangbae3dong</item>
+        <item>방배4동,bangbae4dong</item>
+        <item>방배본동,bangbaebondong</item>
+        <item>서초동,seochodong</item>
+        <item>서초1동,seocho1dong</item>
+        <item>서초2동,seocho2dong</item>
+        <item>서초3동,seocho3dong</item>
+        <item>서초4동,seocho4dong</item>
+        <item>신원동,sin-wondong</item>
+        <item>양재동,yangjaedong</item>
+        <item>양재1동,yangjae1dong</item>
+        <item>양재2동,yangjae2dong</item>
+        <item>염곡동,yeomgogdong</item>
+        <item>우면동,yeomgogdong</item>
+        <item>원지동,wonjidong</item>
+        <item>잠원동,jam-wondong</item>
+
+    </string-array>
+    <string-array name="gangnamgu">
+        <item>전체,all</item>
+        <item>개포동,gaepodong</item>
+        <item>개포1동,gaepo1dong</item>
+        <item>개포2동,gaepo2dong</item>
+        <item>개포4동,gaepo4dong</item>
+        <item>논현동,nonhyeondong</item>
+        <item>논현1동,nonhyeon 1-dong</item>
+        <item>논현2동,nonhyeon 1-dong</item>
+        <item>대치동,daechidong</item>
+        <item>대치1동,daechi1dong</item>
+        <item>대치2동,daechi2dong</item>
+        <item>대치4동,daechi4dong</item>
+        <item>도곡동,dogogdong</item>
+        <item>도곡1동,dogog1dong</item>
+        <item>도곡2동,dogog2dong</item>
+        <item>삼성동,samseongdong</item>
+        <item>삼성1동,samseong1dong</item>
+        <item>삼성2동,samseong2dong</item>
+        <item>세곡동,segogdong</item>
+        <item>수서동,suseo-dong</item>
+        <item>신사동,sinsadong</item>
+        <item>압구정동,abgujeongdong</item>
+        <item>역삼동,yeogsamdong</item>
+        <item>역삼1동,yeogsam1dong</item>
+        <item>역삼2동,yeogsam2dong</item>
+        <item>율현동,yulhyeondong</item>
+        <item>일원동,il-wondong</item>
+        <item>일원1동,il-won1dong</item>
+        <item>일원2동,il-won2dong</item>
+        <item>일원본동,irwonbon-dong</item>
+        <item>자곡동,jagogdong</item>
+        <item>청담동,cheongdamdong</item>
+
+    </string-array>
+    <string-array name="songpagu">
+        <item>전체,all</item>
+        <item>가락동,galagdong</item>
+        <item>가락1동,galag1dong</item>
+        <item>가락2동,galag2dong</item>
+        <item>가락본동,galagbondong</item>
+        <item>거여동,geoyeodong</item>
+        <item>거여1동,geoyeo1dong</item>
+        <item>거여2동,geoyeo2dong</item>
+        <item>마천동,macheondong</item>
+        <item>마천1동,macheon1dong</item>
+        <item>마천2동,macheon2dong</item>
+        <item>문정동,munjeongdong</item>
+        <item>문정1동,munjeong1dong</item>
+        <item>문정2동,munjeong2dong</item>
+        <item>방이동,bangidong</item>
+        <item>방이1동,bangi1dong</item>
+        <item>방이2동,bangi2dong</item>
+        <item>삼전동,samjeondong</item>
+        <item>석촌동,seogchondong</item>
+        <item>송파동,songpadong</item>
+        <item>송파1동,songpa1dong</item>
+        <item>송파2동,songpa2dong</item>
+        <item>신천동,Sincheon-dong</item>
+        <item>오금동,ogeumdong</item>
+        <item>오륜동,Oryun-dong</item>
+        <item>잠실동,jamsildong</item>
+        <item>잠실2동,jamsil2dong</item>
+        <item>잠실3동,jamsil3dong</item>
+        <item>잠실4동,jamsil4dong</item>
+        <item>잠실6동,jamsil6dong</item>
+        <item>잠실7동,jamsil7dong</item>
+        <item>잠실본동,jamsilbon-dong</item>
+        <item>장지동,jangjidong</item>
+        <item>풍납동,pungnabdong</item>
+        <item>풍납1동,pungnap 1-dong</item>
+        <item>풍납2동,pungnap 1-dong</item>
+
+    </string-array>
+    <string-array name="gangdonggu">
+        <item>전체,all</item>
+        <item>강일동,gang-ildong</item>
+        <item>고덕동,godeogdong</item>
+        <item>고덕1동,godeog1dong</item>
+        <item>고덕2동,godeog2dong</item>
+        <item>길동,gildong</item>
+        <item>둔촌동,dunchondong</item>
+        <item>둔촌1동,dunchon1dong</item>
+        <item>둔촌2동,dunchon2dong</item>
+        <item>명일동,myeong-ildong</item>
+        <item>명일1동,Myeongil 1-dong</item>
+        <item>명일2동,Myeongil 2-dong</item>
+        <item>상일동,sang-ildong</item>
+        <item>성내동,seongnaedong</item>
+        <item>성내1동,seongnae1dong</item>
+        <item>성내2동,seongnae2dong</item>
+        <item>성내3동,seongnae3dong</item>
+        <item>암사동,amsadong</item>
+        <item>암사1동,amsa1dong</item>
+        <item>암사2동,amsa2dong</item>
+        <item>암사3동,amsa3dong</item>
+        <item>천호동,cheonhodong</item>
+        <item>천호1동,Cheonho 1dong</item>
+        <item>천호2동,Cheonho 2dong</item>
+        <item>천호3동,Cheonho 3dong</item>
+
+    </string-array>
+    //상세검색 데이터
+    <string-array name="coreary">
+        <item>"전체"</item>
+        <item>"i3"</item>
+        <item>"i5"</item>
+        <item>"i7"</item>
+    </string-array>
+    <string-array name="ramary">
+        <item>"전체"</item>
+        <item>"4GB"</item>
+        <item>"8GB"</item>
+        <item>"12GB"</item>
+        <item>"16GB"</item>
+    </string-array>
+    <string-array name="gpuary">
+        <item>"전체"</item>
+        <item>"Geforce 980ti</item>
+        <item>"Geforce 1060ti"</item>
+        <item>"Geforce 1040"</item>
+        <item>"Geforce 1050ti"</item>
+    </string-array>
+    <string-array name="genary">
+        <item>"전체"</item>
+        <item>"4세대"</item>
+        <item>"5세대"</item>
+        <item>"6세대"</item>
+        <item>"7세대"</item>
+        <item>"8세대"</item>
+    </string-array>
+</resources>

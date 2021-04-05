@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginVertical="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/listview_pcimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/pc_logo"/>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pclistview_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:maxLines="1"
+            android:ellipsize="end"
+
+            android:gravity="center_vertical"
+            android:text="해당 정보가 없습니다"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pclistview_num"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:maxLines="1"
+            android:ellipsize="end"
+
+            android:gravity="center_vertical"
+            android:text="해당 정보가 없습니다"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/pclistview_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:maxLines="1"
+            android:ellipsize="end"
+
+            android:gravity="center_vertical"
+            android:text="해당 정보가 없습니다"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
